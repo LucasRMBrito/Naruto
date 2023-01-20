@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #6ab7f5, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.naruto{
+    position: absolute;
+    position: fixed;
+    left: 5%;
+    top: 100px;
+    width: 300px;
+}
+.sasuke{
+    position: absolute;
+    position: fixed;
+    right: 5%;
+    top: 100px;
+    width: 260px;
+}
+.logo {
+    width: 100px;
+    position: absolute;
+    position: fixed;
+    left: 32%;
+
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.media{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.form {
+    position: absolute;
+    width: 20%;
+    position: fixed;
+}
+
+.pesquisa {
+    margin-top: 10px;
+    width: 100%;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600px;
+
+
+}
+
+.lista {
+    position: absolute;
+    width: 100%;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: bisque;
+    margin-top: 50px;
+    left: 30%;
+    /* width: 100%; */
+    max-width: 40%;
+    position: relative;
+}
+
+.media-body{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+    text-align: start;
+}
+
+.img {
+    position: relative;
+    top: 20px;
+}
+
+@media(max-width: 900px) {
+    .logo {
+        width: 90px;
+        left: 27%;
+    }
+}
+
+@media(max-width: 580px) {
+    .logo {
+        left: 65px;
+    }
+    .pesquisa {
+        width: 200%;
+    }
+    .card {
+        max-width: 90%;
+        left: 5%;
+    }
+}
